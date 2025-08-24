@@ -54,7 +54,7 @@ Goobbue Sync is a powerful Dalamud plugin for Final Fantasy XIV that enables rea
 
 ### Method 1: Dalamud Repository (Recommended)
 1. Open Dalamud Plugin Installer
-2. Add repository: `https://raw.githubusercontent.com/Penumbra-Sync/repo/main/plogonmaster.json`
+2. Add repository: `https://raw.githubusercontent.com/n0way02/goobbue-sync-repo/refs/heads/master/plogonmaster.json`
 3. Search for "Goobbue Sync" and install
 
 ### Method 2: Manual Installation
@@ -159,7 +159,7 @@ dotnet build
 4. **Mod Conflicts**: Verify mod compatibility and load order
 
 ### Getting Help
-- **Discord**: Join the [Mare Synchronos Discord](https://discord.gg/5HVveFefcB)
+- **Discord**: Join the [Mare Synchronos Discord]()
 - **GitHub Issues**: Report bugs and request features
 - **Documentation**: Check the wiki for detailed guides
 
@@ -178,8 +178,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - **GitHub Repository**: [https://github.com/n0way02/goobbue-sync](https://github.com/n0way02/goobbue-sync)
-- **Dalamud Repository**: [https://raw.githubusercontent.com/Penumbra-Sync/repo/main/plogonmaster.json](https://raw.githubusercontent.com/Penumbra-Sync/repo/main/plogonmaster.json)
-- **Discord Server**: [https://discord.gg/5HVveFefcB](https://discord.gg/5HVveFefcB)
+- **Dalamud Repository**: [https://raw.githubusercontent.com/Penumbra-Sync/repo/main/plogonmaster.json](https://raw.githubusercontent.com/n0way02/goobbue-sync-repo/refs/heads/master/plogonmaster.json)
+- **Discord Server**: [https://discord.gg/5HVveFefcB]()
 - **Releases**: [https://github.com/n0way02/goobbue-sync/releases](https://github.com/n0way02/goobbue-sync/releases)
 
 ---
