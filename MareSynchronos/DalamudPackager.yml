@@ -20,8 +20,8 @@ DalamudApiLevel: 13
 
 # Files to include
 IncludeFiles:
-  - "MareSynchronos.dll"
-  - "MareSynchronos.json"
+  - "GoobbueSync.dll"
+  - "GoobbueSync.json"
   - "MareSynchronosAPI.dll"
   - "images/icon.png"
 
