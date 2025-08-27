@@ -348,16 +348,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-
-# Goobbue Sync specific ignores
-*.zip
-temp-release-full/
-server-main.zip
-GoobbueSync-*.zip
-packages.lock.json
-
-# Dalamud plugin specific
-*.dll
-*.pdb
-*.deps.json
-runtimes/
