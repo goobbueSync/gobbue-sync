@@ -1,0 +1,55 @@
+# Goobbue Sync Plugin Manifest for Dalamud
+# This file is used to submit the plugin to the official Dalamud repository
+
+[plugin]
+# Repository URL (must be publicly accessible)
+repository = "https://github.com/n0way02/goobbue-sync.git"
+
+# Commit hash (update this when you make changes)
+commit = "main"
+
+# Plugin owners (GitHub usernames)
+owners = ["n0way02"]
+
+# Project path within the repository
+project_path = "client-main/MareSynchronos"
+
+# Changelog for this version
+changelog = "Initial release of Goobbue Sync - FFXIV character synchronization plugin that allows other players to see your character customizations, mods, and appearance exactly as you see them. Features real-time synchronization, privacy controls, and cross-world compatibility."
+
+# Plugin metadata
+name = "Mare Synchronos"
+description = "A plugin that allows other players to see your character customizations, mods, and appearance exactly as you see them. Real-time synchronization of character data across the FFXIV community."
+author = "n0way02"
+version = "1.0.0.0"
+assembly_version = "1.0.0.0"
+testing_assembly_version = "1.0.0.0"
+
+# Dalamud compatibility
+dalamud_api_level = 13
+applicable_version = "any"
+
+# Plugin configuration
+is_hide = false
+is_testing_exclusive = false
+load_priority = 0
+
+# Tags for categorization
+tags = ["social", "utility", "mods", "customization", "synchronization"]
+category_tags = ["social", "utility"]
+
+# Repository information
+repo_url = "https://github.com/n0way02/goobbue-sync"
+download_link_install = "https://github.com/n0way02/goobbue-sync/releases/latest/download/latest.zip"
+download_link_update = "https://github.com/n0way02/goobbue-sync/releases/latest/download/latest.zip"
+download_link_testing = "https://github.com/n0way02/goobbue-sync/releases/latest/download/latest.zip"
+
+# Icon configuration
+icon_url = "https://raw.githubusercontent.com/n0way02/goobbue-sync/main/client-main/MareSynchronos/images/icon.png"
+image_urls = ["https://raw.githubusercontent.com/n0way02/goobbue-sync/main/client-main/MareSynchronos/images/icon.png"]
+
+# Punchline
+punchline = "Let others see you as you see yourself!"
+
+# Internal name
+internal_name = "MareSynchronos"

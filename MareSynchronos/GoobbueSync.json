@@ -1,0 +1,36 @@
+{
+  "Author": "n0way02",
+  "Name": "Goobbue Sync",
+  "Punchline": "Let others see you as you see yourself!",
+  "Description": "A plugin that allows other players to see your character customizations, mods, and appearance exactly as you see them. Real-time synchronization of character data across the FFXIV community.",
+  "Tags": [
+    "social",
+    "utility",
+    "mods",
+    "customization",
+    "synchronization"
+  ],
+  "CategoryTags": [
+    "social",
+    "utility"
+  ],
+  "IsHide": false,
+  "InternalName": "GoobbueSync",
+  "AssemblyVersion": "1.0.0.0",
+  "TestingAssemblyVersion": "1.0.0.0",
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/n0way02/goobbue-sync",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 13,
+  "DownloadCount": 0,
+  "LastUpdate": 0,
+  "DownloadLinkInstall": "https://github.com/n0way02/goobbue-sync/releases/latest/download/latest.zip",
+  "DownloadLinkUpdate": "https://github.com/n0way02/goobbue-sync/releases/latest/download/latest.zip",
+  "DownloadLinkTesting": "https://github.com/n0way02/goobbue-sync/releases/latest/download/latest.zip",
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/n0way02/goobbue-sync/main/client-main/MareSynchronos/images/icon.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/n0way02/goobbue-sync/main/client-main/MareSynchronos/images/icon.png",
+  "Changelog": "Initial release of Goobbue Sync - FFXIV character synchronization plugin"
+}

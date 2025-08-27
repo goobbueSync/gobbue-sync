@@ -1,0 +1,75 @@
+# Goobbue Sync Plugin Package Configuration
+# This file configures how the plugin is packaged for Dalamud
+
+# Plugin metadata
+PluginName: "Goobbue Sync"
+PluginInternalName: "GoobbueSync"
+PluginVersion: "1.0.0.0"
+PluginAssemblyVersion: "1.0.0.0"
+PluginTestingAssemblyVersion: "1.0.0.0"
+
+# Repository information
+RepositoryUrl: "https://github.com/n0way02/goobbue-sync"
+RepositoryBranch: "main"
+RepositoryCommit: "latest"
+
+# Build configuration
+BuildConfiguration: "Release"
+TargetFramework: "net9.0"
+DalamudApiLevel: 13
+
+# Files to include
+IncludeFiles:
+  - "GoobbueSync.dll"
+  - "GoobbueSync.json"
+  - "MareSynchronosAPI.dll"
+  - "images/icon.png"
+
+# Files to exclude
+ExcludeFiles:
+  - "*.pdb"
+  - "*.xml"
+  - "*.deps.json"
+  - "*.runtimeconfig.json"
+
+# Dependencies
+Dependencies:
+  - "DalamudPackager"
+  - "Dalamud.NET.Sdk"
+
+# Output settings
+OutputDirectory: "bin/Release/net9.0"
+PackageName: "GoobbueSync"
+PackageVersion: "1.0.0"
+
+# Icon configuration
+IconPath: "images/icon.png"
+IconSize: "64x64"
+
+# Changelog
+Changelog: "Initial release of Goobbue Sync - FFXIV character synchronization plugin"
+
+# Tags for categorization
+Tags:
+  - "social"
+  - "utility"
+  - "mods"
+  - "customization"
+  - "synchronization"
+
+# Category tags
+CategoryTags:
+  - "social"
+  - "utility"
+
+# Applicable FFXIV version
+ApplicableVersion: "any"
+
+# Hide from plugin list
+IsHide: false
+
+# Testing exclusive
+IsTestingExclusive: false
+
+# Load priority
+LoadPriority: 0
